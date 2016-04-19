@@ -1,17 +1,61 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
+	font-size: 18px;
+	background-color: #433d4d;
+	color: #cdc6d8;
 }
 
 #header {
-	background-color: #433d4d;
-	color: #cdc6d8;
 	min-height: 500px;
 }
 
 header {
 	margin-top: 100px;
 }
+
+.navigation:after {
+	background-color: #fff;
+	bottom: -30px;
+	content: "";
+	height: 1px;
+	left: 50%;
+	margin-left: -40px;
+	position: absolute;
+	width: 80px;
+}
+
+
+/*About Me */
+
+.about-me {
+	min-height: 250px;
+}
+
+.bio {
+    text-align: justify;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.brand-html {
+    color: #f06529;
+}
+
+.brand-css {
+    color: #35a9db;
+}
+
+.brand-less {
+    color: #2d5086;
+}
+
+.brand-react {
+    color: #00d8ff;
+}
+
+
+/*Portfolio*/
 
 .profile-picture {
 	width: 170px;
@@ -22,13 +66,23 @@ header {
 }
 
 .portfolio-item {
-	padding-left: -15px;
-	padding-right: -15px;
+	margin-bottom: 10px;
 }
 
 .portfolio-item img {
-	width: 100%
+	width: 100%;
 }
+
+.portfolio-detail {
+	background-color: #5e586a;
+	padding-bottom: 15px;
+}
+
+.portfolio-heading {
+	margin-top: 0;
+	padding-top: 15px;
+}
+
 
 nav {
 	padding-top: 20px;
@@ -42,7 +96,7 @@ ul {
 
 ul li {
 	display: inline-block;
-	padding-right: 20px;
+	padding: 0 10px;
 	font-weight: 500;
 }
 
