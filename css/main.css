@@ -2,8 +2,8 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 18px;
-	background-color: #433d4d;
-	color: #cdc6d8;
+	background-color: #41718E;
+	color: #C6DCE9;
 }
 
 #header {
@@ -74,7 +74,7 @@ header {
 }
 
 .portfolio-detail {
-	background-color: #5e586a;
+	background-color: #DFBC5F;
 	padding-bottom: 15px;
 }
 
@@ -83,7 +83,17 @@ header {
 	padding-top: 15px;
 }
 
+/*Connect*/
 
+.connect {
+	min-height: 300px;
+	margin-top: 80px;
+}
+
+.connect-icons {
+	width: 30px;
+	color: #C6DCE9;
+}
 nav {
 	padding-top: 20px;
 }
@@ -105,5 +115,5 @@ a {
 }
 
 a:hover {
-	color: #cdc6d8;
+	color: #C6DCE9;
 }
