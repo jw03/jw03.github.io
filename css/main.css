@@ -2,19 +2,19 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 18px;
-	background-color: #41718E;
-	color: #C6DCE9;
+	background-color: #304251;
+	color: #fff;
 }
 
 #header {
-	min-height: 500px;
+	min-height: 450px;
 }
 
 header {
 	margin-top: 100px;
 }
 
-.navigation:after {
+header:after {
 	background-color: #fff;
 	bottom: -30px;
 	content: "";
@@ -74,7 +74,7 @@ header {
 }
 
 .portfolio-detail {
-	background-color: #DFBC5F;
+	background-color: #465b6c;
 	padding-bottom: 15px;
 }
 
@@ -83,6 +83,16 @@ header {
 	padding-top: 15px;
 }
 
+.portfolio-item a {
+	transition: opacity 0.5s ease;
+  	opacity: 1;
+}
+
+.portfolio-item a:hover {
+	opacity: 0.7;
+}
+
+
 /*Connect*/
 
 .connect {
@@ -90,30 +100,65 @@ header {
 	margin-top: 80px;
 }
 
+.connect-title:after {
+	background-color: #fff;
+	content: "";
+	height: 1px;
+	display: block;
+	width: 60px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	margin-top: 5px;
+}
+
 .connect-icons {
-	width: 30px;
-	color: #C6DCE9;
-}
-nav {
-	padding-top: 20px;
+	width: 25px;
+	color: #c6dce9;
+	margin: 15px;
 }
 
-ul {
+.social-networks {
+	padding-left: 0;
+}
+
+.social-networks li {
 	list-style: none;
-	padding: 0;
-	text-align: center;
+	display: inline-block;
+	margin: 10px;
 }
 
-ul li {
-	display: inline-block;
-	padding: 0 10px;
-	font-weight: 500;
+.social-networks a {
+	width: 40px;
+	height: 40px;
+	display: block;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+}
+
+.social-networks .twitter {
+	background-image: url(../img/twitter.svg);
+	background-size: 30px 30px;
+}
+
+.social-networks .instagram {
+	background-image: url(../img/insta.svg);	
+	background-size: 30px 30px;
 }
 
 a {
+	opacity: 0.7;
 	color: #fff;
+	transition: opacity 0.25s ease;
 }
 
 a:hover {
-	color: #C6DCE9;
+	opacity: 1;
+	text-decoration: none;
+	color: #fff;
+}
+
+#footer {
+	background-color: #465b6c;
+	padding: 15px 0 5px;
 }
