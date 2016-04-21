@@ -6,33 +6,54 @@ body {
 	color: #fff;
 }
 
-#header {
-	min-height: 450px;
-}
+/*Header*/
 
 header {
-	margin-top: 100px;
+	margin: 80px 0;
 }
 
-header:after {
+header:after, .portfolio:after {
 	background-color: #fff;
-	bottom: -30px;
 	content: "";
 	height: 1px;
 	left: 50%;
-	margin-left: -40px;
+	margin: 20px 0 0 -40px;
 	position: absolute;
 	width: 80px;
+}
+
+.portfolio:after {
+	margin-top: 40px;
+}
+
+
+/*Links*/
+
+a {
+	opacity: 0.7;
+	color: #fff;
+	transition: opacity 0.1s ease;
+}
+
+a:hover {
+	opacity: 1;
+	text-decoration: none;
+	color: #fff;
+}
+
+#footer {
+	background-color: #465b6c;
+	padding: 15px 0 5px;
 }
 
 
 /*About Me */
 
 .about-me {
-	min-height: 250px;
 	text-align: justify;
     width: 60%;
     margin: 0 auto;
+    padding: 5px 0 60px;
 }
 
 .brand-html {
@@ -93,8 +114,8 @@ header:after {
 /*Connect*/
 
 .connect {
-	min-height: 300px;
 	margin-top: 80px;
+	margin-bottom: 40px;
 }
 
 .connect-title:after {
@@ -143,34 +164,7 @@ header:after {
 	background-size: 30px 30px;
 }
 
-a {
-	opacity: 0.7;
-	color: #fff;
-	transition: opacity 0.1s ease;
-}
-
-a:hover {
-	opacity: 1;
-	text-decoration: none;
-	color: #fff;
-}
-
-#footer {
-	background-color: #465b6c;
-	padding: 15px 0 5px;
-}
-
 
 @media ( max-width: 769px ) {
-		.about-me {
-	    width: 90%;
-	}
+	.about-me { width: 90%; }
 }
-
-
-
-
-
-
-
-
