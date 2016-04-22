@@ -13,6 +13,14 @@ header {
 	margin: 80px 0;
 }
 
+.profile-picture {
+	width: 170px;
+	border-radius: 50%;
+	margin-top: 100px;
+	display: block;
+	margin: auto;
+}
+
 /*Border-separator*/
 
 header:after, .portfolio:after {
@@ -73,16 +81,8 @@ a:hover {
 
 /*Portfolio*/
 
-.profile-picture {
-	width: 170px;
-	border-radius: 50%;
-	margin-top: 100px;
-	display: block;
-	margin: auto;
-}
-
 .portfolio-item {
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 
 .portfolio-item img {
@@ -165,7 +165,7 @@ a:hover {
 
 /*Footer*/
 
-#footer {
+.footer {
 	background-color: #465b6c;
 	padding: 15px 0 5px;
 }
